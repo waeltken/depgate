@@ -6,13 +6,14 @@ name = "pypi"
 [packages]
 fastapi = "*"
 azure-functions = "*"
+nest-asyncio = "*"
 
 [dev-packages]
 black = "*"
 uvicorn = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.9"
 
 [pipenv]
 allow_prereleases = false
