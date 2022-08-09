@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
+azure-functions = "*"
 
 [dev-packages]
 black = "*"
